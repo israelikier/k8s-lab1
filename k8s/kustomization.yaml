@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - Deployment.yaml
+  - Service.yaml
+  - Ingress.yaml
+  
+namespace: goapp
+
+images:
+- name: go-webapp
+  newName: israelikier/webserver-go
+  newTag: v1
