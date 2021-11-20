@@ -10,4 +10,4 @@ namespace: goapp
 images:
 - name: go-webapp
   newName: israelikier/webserver-go
-  newTag: 5d7473ffb4cbc36e97eee741f73a8534741b9cdf
+  newTag: de2b8ba68a364a384910f5653d8ecaea56dc16a9
