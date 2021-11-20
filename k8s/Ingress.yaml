@@ -2,9 +2,17 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: go-webapp
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/rewrite-target: /  
   labels:
     name: go-webapp
 spec:
+  tls:
+  - hosts:
+    - go-webapp.ikiernet.com.br
+    secretName: tls-ikiernet-secret  
   rules:
   - host: go-webapp.ikiernet.com.br
     http:
