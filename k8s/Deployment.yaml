@@ -14,7 +14,7 @@ spec:
       containers:
       - name: go-webapp
         image: go-webapp
-        imagePullPolicy: Never
+#        imagePullPolicy: Never
         resources:
           limits:
             memory: "128Mi"
