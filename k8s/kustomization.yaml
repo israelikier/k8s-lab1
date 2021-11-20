@@ -13,4 +13,4 @@ images:
   newTag: 72b452884b050f0b4af24ef7a4407bfd3f177674
 - name: goapp
   newName: israelikier/webserver-go
-  newTag: e69399966d11f3bb38dc3ed4d2995794a9900f28
+  newTag: aad6aecb465d883da267b160708965ef4389d194
