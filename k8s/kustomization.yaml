@@ -11,6 +11,3 @@ images:
 - name: go-webapp
   newName: israelikier/webserver-go
   newTag: 72b452884b050f0b4af24ef7a4407bfd3f177674
-- name: goapp
-  newName: israelikier/webserver-go
-  newTag: aad6aecb465d883da267b160708965ef4389d194
